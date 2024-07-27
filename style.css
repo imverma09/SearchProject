@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.777);
+    margin: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+    border: 2px solid;
+    padding: 12px;
+    height: 400px;
+    position: relative;
+}
+
+.circle span {
+    display: inline-block;
+    padding: 8px;
+    border: 1.5px solid;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.input input {
+    background-color: inherit;
+    margin-top: 12px;
+    outline: none;
+    height: 20px;
+    width: 70%;
+    padding-left: 7px;
+}
+
+button {
+    background-color: inherit;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.social-media {
+    align-items: center;
+    position: absolute;
+    bottom: 12px;
+    width: 90%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.contacts {
+    display: flex;
+    height: 50px;
+    border: 1.5px solid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    background-color: grey;
+}
+
+.box {
+    height: 160px;
+    width: 170px;
+    background-color: aqua;
+}
+.card{
+    padding-top: 12px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4 ,1fr);
+}
+main{
+    width: 100%;
+}
+.card img{
+    width: 100%;
+    border-radius: 6px;
+}
+.card div{
+    border: 2px solid;
+    padding: 6px;
+    border-radius: 6px ;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: 1px 1px 12px gray;
+}
